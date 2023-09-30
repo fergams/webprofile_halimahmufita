@@ -1,0 +1,298 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: #158194;
+  box-shadow: 0px 2px 12px rgb(201, 176, 176);
+  padding: 0px 5%;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  margin: 20px;
+  font-family: Georgia;
+  color: white;
+  font-size: 15px;
+  font-weight: 700px;
+}
+
+nav ul li a:hover {
+  background-color: white;
+  color: #158194;
+  border-radius: 5px;
+}
+
+.logo {
+  font-family: Georgia;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#home {
+  width: 100%;
+  height: 95vh;
+  position: relative;
+}
+
+.home p {
+  line-height: 5px;
+}
+
+.home p:nth-child(1) {
+  font-family: Georgia;
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+  margin: 160px 130px 45px;
+}
+
+.home p:nth-child(2) {
+  font-family: Georgia;
+  font-weight: bold;
+  color: black;
+  font-size: 15px;
+}
+
+.home {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  transform: translate(5%, 42%);
+}
+
+.picture {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  left: 80%;
+  top: 19%;
+  transform: translate(-70%);
+}
+
+.about {
+  height: 67vh;
+  background-color: #88b7c0;
+  padding: 5% 10% 11%;
+}
+
+.about p:nth-child(1) {
+  font-family: Georgia;
+  font-weight: bold;
+  color: black;
+  font-size: 35px;
+  line-height: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.row {
+  margin: 30px;
+  padding: 0px;
+  display: flex;
+}
+
+.row .column h2 {
+  text-align: center;
+}
+
+.row .column p {
+  text-align: justify;
+}
+
+.column {
+  flex: 50%;
+  padding: 30px;
+}
+
+.project {
+  height: 75vh;
+  background-color: white;
+  padding: 2% 10% 10%;
+}
+
+.project-desc {
+  margin: 50px 50px;
+}
+
+.project-desc p:nth-child(1) {
+  font-family: Georgia;
+  font-weight: bold;
+  color: black;
+  font-size: 35px;
+  line-height: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.project-desc p:nth-child(2) {
+  font-family: Georgia;
+  color: black;
+  text-align: center;
+}
+
+.box-container {
+  display: flex;
+  text-align: justify;
+  justify-content: space-around;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+  width: 350px;
+  height: 350px;
+  box-shadow: 2px 12px 18px rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 5px;
+}
+
+.box-1 span,
+.box-2 span,
+.box-3 span {
+  width: 40px;
+  height: 40px;
+  background-color: #88b7c0;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+}
+
+.meow {
+  width: 340px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.laundry {
+  width: 340px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.cake {
+  width: 340px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.contact {
+  height: 65vh;
+  background-color: #88b7c0;
+  padding: 2% 10% 10%;
+}
+
+.contact-desc {
+  margin: 50px 50px;
+}
+
+.contact-desc p:nth-child(1) {
+  font-family: Georgia;
+  font-weight: bold;
+  color: black;
+  font-size: 35px;
+  line-height: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #88b7c0;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #158194;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #092b31;
+}
+
+footer {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #158194;
+}
+
+footer p {
+  font-family: Georgia;
+}
+
+footer p:nth-child(1) {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  line-height: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.social-icons {
+  margin: 10px 0px;
+  display: flex;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.social-icons a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.social-icons i {
+  font-size: 35px;
+  color: #158194;
+}
+
+.social-icons a:hover {
+  background-color: #092b31;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
